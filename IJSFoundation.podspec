@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "IJSFoundation"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "IJSFoundation."
   s.license          = 'MIT'
   s.author           = { "wangjinshan" => "1096452045@qq.com" }
@@ -19,11 +19,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.requires_arc = true
   s.description  = 'IJSFoundation for myself'
-
-  
   s.source       = { :git => "https://github.com/wangjinshan/IJSFoundation.git", :tag => "#{s.version}" }
 
-  s.source_files  = "IJSFoundation/**/*"
-  
+  # s.source_files  = "IJSFoundation/**/*"
+
+  s.vendored_frameworks = 'IJSFoundation/IJSFoundation.framework'
 
 end
