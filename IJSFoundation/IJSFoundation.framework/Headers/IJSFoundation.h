@@ -18,6 +18,7 @@
 #import "IJSFRegexCategory.h"
 #import "IJSFURL.h"
 #import "IJSFImage.h"
+#import "JSFPSView.h"
 #import "IJSFPhotos.h"
 
 
