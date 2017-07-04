@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "IJSFoundation"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "IJSFoundation."
   s.license          = 'MIT'
   s.author           = { "wangjinshan" => "1096452045@qq.com" }
