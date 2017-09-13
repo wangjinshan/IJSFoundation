@@ -29,6 +29,11 @@
  */
 + (UIViewController *)currentViewControllerFromWindow:(UIWindow *)window;
 
+/**
+ 回到跟控制器
+ */
++ (void)backToRootViewControllerWhenDidFinish;
+
 
 
 

@@ -26,10 +26,26 @@
  */
 + (UIImage *)loadImageWithBundle:(NSString *)bundleName subFile:(NSString *)subFile grandson:(NSString *)grandson imageName:(NSString *)imageName imageType:(NSString *)imageType;
 
+/**
+ *  从bundle中加载图片资源
+ *
+ *  @param name         图片的名字
+ *  @param bundle          bundle对象
+ *
+ *  @return 获取到的资源
+ */
++ (UIImage *)loadImageName:(NSString *)name bundle:(NSBundle *)bundle;
 
-
-
-
+/**
+ *  spec.Resource
+ *
+ *  @param bundleName         bundle
+ *  @param imageName          image前缀
+ *  @param imageType     image类型
+ *
+ *  @return 图片对象
+ */
++ (UIImage *)loadImageSpecResourceBundleName:(NSString *)bundleName imageName:(NSString *)imageName imageType:(NSString *)imageType;
 
 
 

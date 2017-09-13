@@ -36,7 +36,13 @@ typedef void (^completion) (NSInteger fileSize);
  */
 + (void) cleanFileWithFilePath:(NSString *)filePath surplusOfSize:(completion)fileSzieHandler;
 
+/**
+ 获取某一个文件夹下的所有的资源
 
+ @param folderPath 文件夹路径
+ @param completeHandler fileCount文件个数    fileSzie整个文件夹大小      NSArray子文件的路径
+ */
++(void)ergodicFilesFromFolderPath:(NSString *)folderPath completeHandler:(void(^)(NSInteger fileCount, NSInteger fileSzie,NSMutableArray<NSString *> *filePath))completeHandler;
 
 
 @end

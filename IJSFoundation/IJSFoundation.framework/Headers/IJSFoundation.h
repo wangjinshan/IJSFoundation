@@ -21,5 +21,6 @@
 #import "IJSFImage.h"
 #import "IJSFPhotos.h"
 
+#import "IJSFNSArray.h"
 
 #endif /* IJSFoundtion_h */
