@@ -32,7 +32,4 @@
 - (id)objectFromJSONString:(NSString *)jsonString;
 
 
-
-
 @end
-

@@ -22,7 +22,4 @@
 + (UIImage *)imageOriginalWithImage:(UIImage *)image;
 
 
-
-
-
 @end
